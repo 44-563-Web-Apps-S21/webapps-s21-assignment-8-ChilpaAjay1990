@@ -21,6 +21,7 @@ const server =
        
           console.log("Look for query parameter data: " + search_params.get("data"))
           const x = search_params.get("x")
+          const y = search_params.get("y")
           const cbrtFormula =  Math.cbrt(x)
           const cbrtResult = `Cbrt of (${x}) is  ${cbrtFormula}`
 
